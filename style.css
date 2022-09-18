@@ -1,0 +1,189 @@
+/* Start all css */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* Start header css */
+h2 {
+    text-align: center;
+    color: white;
+    background: #34495E;
+    padding: 10px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+/* End header css */
+
+/* Start benner css */
+.benner img {
+    width: 100%;
+}
+.benner {
+    margin-bottom: -4px;
+}
+/* End benner css */
+
+/* Start about css */
+.about {
+    background: #0D6EFD;
+    padding: 50px 0px;    
+}
+.about .aboutbox-1 {
+    width: 500px;
+    height: 200px;
+    background: #E67E22;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 50px;
+    border-left: 5px solid black;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.about .aboutbox-1 p{
+    margin-top: 10px;
+}
+.about .aboutbox-2 {
+    width: 500px;
+    height: 200px;
+    background: #1ABC9C;
+    text-align: right;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 50%;
+    border-right: 5px solid #9941B0;
+    border-radius: 50px 0px 0px 50px;
+}
+.about .aboutbox-2 p{
+    margin-top: 10px;
+}
+/* End about css */
+
+/* Start country section css */
+.country {
+    background: #4D687A;
+    padding-bottom: 15px;
+    
+}
+.country h1 {
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.country .bangladesh {
+    width: 300px;
+    height: 200px;
+    background: green;
+    position: relative;
+    margin: auto;
+    
+}
+.country .bangladesh .box-1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+.country h3 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+.country .england {
+    width: 300px;
+    height: 200px;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.country .england .box-2 {
+    width: 300px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    top: 90px;
+}
+.country .england .box-3 {
+    width: 20px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    left: 200px;
+}
+.country .japan {
+    width: 300px;
+    height: 200px;
+    background: white;
+    position: relative;
+    border: 4px solid black;
+    margin: auto;
+    margin-top: 15px;
+}
+.country .japan .box-4 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+.country .germany {
+    width: 300px;
+    height: 200px;
+    background: white;
+    margin: auto;
+    margin-top: 15px;
+}
+.country .germany .box-5 {
+    width: 300px;
+    height: 66px;
+    background: black;
+}
+.country .germany .box-6 {
+    width: 300px;
+    height: 66px;
+    background: red;
+    margin-top: 2px;
+}
+.country .germany .box-7 {
+    width: 300px;
+    height: 66px;
+    background: yellow;
+}
+/* End country section css */
+
+/* Start footer css */
+.foot .content {
+    background: #198754;
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 15px 0px;
+}
+/* End  footer css */
